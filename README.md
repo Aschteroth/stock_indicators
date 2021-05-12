@@ -1,7 +1,11 @@
 # Stock indicators *Work in Progress*
 
-Short script using bt and talib libraries to plot financial indicators on stocks. 
+This is a project for personal use, meant to be integrated to a dscord bot later on. 
 
-Current features: 
-- Charting EMA (10,40) and signal (Buy/Sell) 
-- Charting ADX and RSI
+Dependencies: bt, talib 
+
+Current functions: 
+- ema_strategy(ticker); Charting EMA (10,40) and signal (Buy/Sell)
+- adx(ticker); Charting ADX and RSI
+
+Input: stock ticker symbol (aplhanumeric, 5 characters)
